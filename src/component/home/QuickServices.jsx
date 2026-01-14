@@ -99,26 +99,8 @@ export default function QuickServices() {
           ))}
         </div>
 
-        {/* CTA Section */}
-        <div className="mt-16 text-center">
-          <p className="text-lg text-gray-600 mb-6">
-            Need help choosing the right service? Our travel experts are here to assist you.
-          </p>
-          <div className="flex flex-wrap justify-center gap-4">
-            <a
-              href="#contact"
-              className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all shadow-lg hover:shadow-xl transform hover:scale-105"
-            >
-              Contact Us
-            </a>
-            <a
-              href="tel:+8801711792071"
-              className="bg-white hover:bg-gray-50 text-gray-900 border-2 border-gray-300 px-8 py-4 rounded-lg text-lg font-semibold transition-all"
-            >
-              Call Now: +880 1711-792071
-            </a>
-          </div>
-        </div>
+     
+       
       </div>
     </section>
   );
