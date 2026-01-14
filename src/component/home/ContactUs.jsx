@@ -28,7 +28,7 @@ export default function ContactUs() {
   });
 
   return (
-    <section className="bg-slate-50 py-16 px-4">
+    <section className=" py-16 px-4">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         
         {/* LEFT SIDE: CONTACT TEXT */}
