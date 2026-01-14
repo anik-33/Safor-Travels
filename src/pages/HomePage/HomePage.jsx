@@ -6,6 +6,8 @@ import TourPackageSection from '../../component/tours/TourPackageSection';
 import WhyChooseSafor from '../../component/home/WhyChooseSafor';
 import ContactUs from '../../component/home/ContactUs';
 import TopDestination from '../../component/home/topDestination/TopDestination';
+import SponsoredCarousel from '../../component/common/SponsoredCarousel';
+import Testimonials from '../../component/common/Testimonials';
 
 const HomePage = () => {
     return (
@@ -13,11 +15,10 @@ const HomePage = () => {
             <Hero></Hero>
             <TopDestination></TopDestination>
             <TourPackageSection></TourPackageSection>
-
-            
-
+            <SponsoredCarousel></SponsoredCarousel>
             <QuickServices></QuickServices>
             <WhyChooseSafor></WhyChooseSafor>
+            <Testimonials></Testimonials>
             <ContactUs></ContactUs>
         </div>
     );
